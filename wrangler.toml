@@ -1,0 +1,12 @@
+name = "gafapasta-model-picture"
+main = "src/index.js"
+compatibility_date = "2026-11-01"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+
+[vars]
+AI_PROVIDER = "meta" # "meta" (muse-image-1.0) o "gemini"
+GEMINI_IMAGE_MODEL = "gemini-2.5-flash-image"
